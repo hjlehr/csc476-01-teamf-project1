@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C9A59EB6-AF36-9F4A-DF33-C78533E52C1D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RestartButton.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BoardMovement.cs" Line="27" Column="22" />
+      <File FileName="Assets/Scripts/WrongHole.cs" Line="23" Column="10" />
+      <File FileName="Assets/Scripts/CorrectHole.cs" Line="21" Column="39" />
+      <File FileName="Assets/Scripts/Camera.cs" Line="23" Column="6" />
+      <File FileName="Assets/Scripts/RestartButton.cs" Line="16" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TeamProject1" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="RestartButton.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b90d5ed9-42f1-4a8c-8994-cfa6847bce7d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
