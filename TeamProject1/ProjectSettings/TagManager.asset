@@ -6,7 +6,9 @@ TagManager:
   tags:
   - Ball
   - WrongHole
-  - CorrectHole1
+  - CorrectHole
+  - CorrectHole2
+  - CorrectHole3
   layers:
   - Default
   - TransparentFX

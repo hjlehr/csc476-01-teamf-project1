@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\BoardMovement.cs" />
     <Compile Include="Assets\Scripts\Cameragaa.cs" />
     <Compile Include="Assets\Scripts\RestartButton.cs" />
+    <Compile Include="Assets\Scripts\Tilt.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

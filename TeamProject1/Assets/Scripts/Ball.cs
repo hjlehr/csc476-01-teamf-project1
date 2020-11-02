@@ -31,7 +31,18 @@ public class Ball : MonoBehaviour
         }
         else if (collision.gameObject.tag == "CorrectHole1")
         {
-            SceneManager.LoadScene("Scene4");
+            SceneManager.LoadScene("SecondLevel");
+        }
+        else if (collision.gameObject.tag == "CorrectHole2")
+        {
+            SceneManager.LoadScene("ThirdLevel");
+        }
+        else if (collision.gameObject.tag == "CorrectHole3")
+        {
+            SceneManager.LoadScene("FourthLevel");
+        } else if (collision.gameObject.tag == "CorrectHole4")
+        {
+            SceneManager.LoadScene("Congratulations");
         }
     }
 }
