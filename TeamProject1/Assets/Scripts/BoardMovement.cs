@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BoardMovement : MonoBehaviour
 {
-    public float speed = 1000;
-    private float rotX = 0;
-    private float rotZ = 0;
+    public float speed = 800;
+    public static float rotX = 0;
+    public static float rotZ = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,5 +36,10 @@ public class BoardMovement : MonoBehaviour
         rotX = 0;
         rotZ = 0;
 
+        if (Ball.crashed)
+        {
+            transform.rotation = Quaternion.identity;
+            Ball.crashed = false;
+        }
     }
 }
