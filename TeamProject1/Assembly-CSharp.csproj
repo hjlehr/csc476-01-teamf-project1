@@ -63,11 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Mezanix\RealisticWoodTextures\0_Demo_Scene\Scripts\SimpleRotate.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\BoardMovement.cs" />
     <Compile Include="Assets\Scripts\Cameragaa.cs" />
     <Compile Include="Assets\Scripts\RestartButton.cs" />
+    <Compile Include="Assets\Scripts\StartButton.cs" />
     <Compile Include="Assets\Scripts\Tilt.cs" />
+    <None Include="Assets\Mezanix\RealisticWoodTextures\0_1_Documentation\Read_me.txt" />
+    <None Include="Assets\Mezanix\RealisticWoodTextures\0_1_Documentation\Textures_List.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

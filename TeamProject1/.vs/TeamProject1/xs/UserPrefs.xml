@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{C9A59EB6-AF36-9F4A-DF33-C78533E52C1D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Cameragaa.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RestartButton.cs">
     <Files>
       <File FileName="Assets/Scripts/BoardMovement.cs" Line="38" Column="1" />
-      <File FileName="Assets/Scripts/RestartButton.cs" />
-      <File FileName="Assets/Scripts/Ball.cs" Line="34" Column="46" />
-      <File FileName="Assets/Scripts/Cameragaa.cs" Line="30" Column="1" />
+      <File FileName="Assets/Scripts/RestartButton.cs" Line="11" Column="9" />
+      <File FileName="Assets/Scripts/Ball.cs" />
+      <File FileName="Assets/Scripts/Cameragaa.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StartButton.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +13,7 @@
           <Node name="TeamProject1" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Cameragaa.cs" selected="True" />
+                <Node name="RestartButton.cs" selected="True" />
               </Node>
             </Node>
           </Node>

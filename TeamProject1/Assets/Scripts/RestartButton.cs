@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RestartButton : MonoBehaviour
 {
@@ -14,5 +15,11 @@ public class RestartButton : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnMouseDown()
+    {
+        SceneManager.LoadScene("FirstLevel");
+        Cameragaa.lives = 3;
     }
 }
