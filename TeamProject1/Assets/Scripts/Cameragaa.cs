@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 public class Cameragaa : MonoBehaviour
 {
     public static float lives = 3;
-    public static float timer;
+    public static float timer = 0;
     public static int FirstLevelScore = 10;
     public static int SecondLevelScore = 50;
     public static int ThirdLevelScore = 250;
     public static int FourthLevelScore = 1250;
+    public static bool Finished = false;
     public static Vector3 ballInitialPos;
     public GameObject ball;
 

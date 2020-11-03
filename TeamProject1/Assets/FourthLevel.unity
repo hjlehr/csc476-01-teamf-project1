@@ -3629,6 +3629,7 @@ GameObject:
   - component: {fileID: 1479968634}
   - component: {fileID: 1479968633}
   - component: {fileID: 1479968637}
+  - component: {fileID: 1479968638}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3729,6 +3730,18 @@ MonoBehaviour:
   CurrentScore: {fileID: 1427879482}
   Lives: {fileID: 715046677}
   RestartButton: {fileID: 1898856210}
+--- !u!114 &1479968638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479968632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db47d0ee6fea4e02bf9c73ab6d9182c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1527451683
 GameObject:
   m_ObjectHideFlags: 0

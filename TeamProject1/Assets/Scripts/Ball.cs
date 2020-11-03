@@ -25,7 +25,10 @@ public class Ball : MonoBehaviour
             transform.position = Cameragaa.ballInitialPos;
             --Cameragaa.lives;
             if (Cameragaa.lives == 0)
+            {
                 SceneManager.LoadScene("GameOver");
+                Cameragaa.Finished = true;
+            }
             BoardMovement.rotX = 0;
             BoardMovement.rotZ = 0;
         }
@@ -46,6 +49,7 @@ public class Ball : MonoBehaviour
         } else if (collision.gameObject.tag == "CorrectHole4")
         {
             HighScore.score += (int)(Cameragaa.FourthLevelScore * Cameragaa.lives);
+            Cameragaa.Finished = true;
             SceneManager.LoadScene("Congratulations");
         }
     }

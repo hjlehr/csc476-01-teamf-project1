@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{C9A59EB6-AF36-9F4A-DF33-C78533E52C1D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RestartUIButton.cs">
     <Files>
-      <File FileName="Assets/Scripts/HighScore.cs" Line="8" Column="40" />
-      <File FileName="Assets/Scripts/RestartUIButton.cs" Line="31" Column="1" />
-      <File FileName="Assets/Scripts/Cameragaa.cs" />
-      <File FileName="Assets/Scripts/ShowText.cs" />
-      <File FileName="Assets/Scripts/Ball.cs" />
-      <File FileName="Assets/Scripts/RestartButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ShowText.cs" Line="8" Column="2" />
+      <File FileName="Assets/Scripts/HighScore.cs" Line="29" Column="24" NotebookId="1" />
+      <File FileName="Assets/Scripts/RestartUIButton.cs" Line="40" Column="6" NotebookId="1" />
+      <File FileName="Assets/Scripts/Cameragaa.cs" Line="15" Column="41" NotebookId="1" />
+      <File FileName="Assets/Scripts/Ball.cs" Line="31" Column="14" NotebookId="1" />
+      <File FileName="Assets/Scripts/Tilt.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/BoardMovement.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/FinalScreenTexts.cs" Line="26" Column="87" NotebookId="1" />
+      <File FileName="Assets/Scripts/Popup.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

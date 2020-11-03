@@ -67,12 +67,11 @@
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\BoardMovement.cs" />
     <Compile Include="Assets\Scripts\Cameragaa.cs" />
+    <Compile Include="Assets\Scripts\FinalScreenTexts.cs" />
     <Compile Include="Assets\Scripts\HighScore.cs" />
-    <Compile Include="Assets\Scripts\RestartButton.cs" />
+    <Compile Include="Assets\Scripts\Popup.cs" />
     <Compile Include="Assets\Scripts\RestartUIButton.cs" />
-    <Compile Include="Assets\Scripts\ScoreAndFinal.cs" />
     <Compile Include="Assets\Scripts\ShowText.cs" />
-    <Compile Include="Assets\Scripts\StartButton.cs" />
     <Compile Include="Assets\Scripts\Tilt.cs" />
     <None Include="Assets\Mezanix\RealisticWoodTextures\0_1_Documentation\Read_me.txt" />
     <None Include="Assets\Mezanix\RealisticWoodTextures\0_1_Documentation\Textures_List.txt" />
@@ -252,6 +251,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/Users/josuebejar/Documents/GitHub/csc476-01-teamf-project1/TeamProject1/Library/PackageCache/com.unity.connect.share@3.0.0/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -630,6 +632,15 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/josuebejar/Documents/GitHub/csc476-01-teamf-project1/TeamProject1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Connect.Share.Editor">
+      <HintPath>/Users/josuebejar/Documents/GitHub/csc476-01-teamf-project1/TeamProject1/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
+      <HintPath>/Users/josuebejar/Documents/GitHub/csc476-01-teamf-project1/TeamProject1/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>/Users/josuebejar/Documents/GitHub/csc476-01-teamf-project1/TeamProject1/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
