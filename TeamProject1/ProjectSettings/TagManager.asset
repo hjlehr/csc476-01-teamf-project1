@@ -9,6 +9,8 @@ TagManager:
   - CorrectHole
   - CorrectHole2
   - CorrectHole3
+  - CorrectHole1
+  - CorrectHole4
   layers:
   - Default
   - TransparentFX
