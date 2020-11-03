@@ -31,17 +31,21 @@ public class Ball : MonoBehaviour
         }
         else if (collision.gameObject.tag == "CorrectHole1")
         {
+            HighScore.score += (int)(Cameragaa.FirstLevelScore * Cameragaa.lives);
             SceneManager.LoadScene("SecondLevel");
         }
         else if (collision.gameObject.tag == "CorrectHole2")
         {
+            HighScore.score += (int)(Cameragaa.SecondLevelScore * Cameragaa.lives);
             SceneManager.LoadScene("ThirdLevel");
         }
         else if (collision.gameObject.tag == "CorrectHole3")
         {
+            HighScore.score += (int)(Cameragaa.ThirdLevelScore * Cameragaa.lives);
             SceneManager.LoadScene("FourthLevel");
         } else if (collision.gameObject.tag == "CorrectHole4")
         {
+            HighScore.score += (int)(Cameragaa.FourthLevelScore * Cameragaa.lives);
             SceneManager.LoadScene("Congratulations");
         }
     }
